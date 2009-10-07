@@ -1,12 +1,12 @@
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |gemspec|
-    gemspec.name = "nestegg"
+    gemspec.name = "mattscilipoti-nestegg"
     gemspec.summary = "Nested exceptions for ruby"
     gemspec.description = "Module to add a 'cause' field to exceptions and automatically chains exceptions on re-raise"
-    gemspec.email = "duelin dot markers at gmail"
+    gemspec.email = "matt at scilipoti.name"
     gemspec.homepage = "http://nestegg.rubyforge.org"
-    gemspec.authors = ["John D. Hume"]
+    gemspec.authors = ["John D. Hume, Matt Scilipoti"]
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: sudo gem install technicalpickles-jeweler -s http://gems.github.com"
